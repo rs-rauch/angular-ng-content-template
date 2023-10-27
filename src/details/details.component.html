@@ -1,0 +1,8 @@
+<div class="details">
+  <div class="general" *ngIf="showGeneral">
+    <ng-content select="[general]"></ng-content>
+  </div>
+  <div class="view">
+    <ng-content select="[view]"></ng-content>
+  </div>
+</div>
